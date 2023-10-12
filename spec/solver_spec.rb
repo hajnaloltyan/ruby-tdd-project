@@ -20,8 +20,8 @@ describe Solver do
       expect(solver.factorial(7)).to eq(5040)
     end
 
-    it 'returns the factorial of -1' do
-      expect(solver.factorial(-1)).to eq(1)
+    it 'returns Error message when num is negative' do
+      expect { solver.factorial(-1) }.to raise_exception(ArgumentError)
     end
   end
 

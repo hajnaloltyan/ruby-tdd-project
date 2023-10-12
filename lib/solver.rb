@@ -2,7 +2,9 @@ class Solver
   # Arguments
   # @n = Number to be calculated
   def factorial(num)
-    return 1 if num <= 0
+    raise ArgumentError, 'Number must be positive' if num.negative?
+
+    return 1 if num == 0
 
     num * factorial(num - 1)
   end
