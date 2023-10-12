@@ -3,32 +3,31 @@
 <div align="center">
   <img src="https://rysthcraft.netlify.app/img/LOGO-ONLY.svg" alt="logo" width="140"  height="auto" />
   <br/>
-  <h3><b>John Palacios - RysthCraft</b></h3>
+  <h3><b>John Palacios & Hajnalka Oltyan</b></h3>
 </div>
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Ruby - TDD project ](#-ruby---tdd-project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# 📖 RUBY Decode Morse <a name="about-project"></a>
+# 📖 Ruby - TDD project <a name="about-project"></a>
 
-**RUBY Decode Morse** ...
+**Ruby - TDD project** is a backend application, used to communicate with Students, Teachers, Books, and other relevant components from a School Library system. Built with Ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,12 +37,15 @@
 <summary>Technologies</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="https://rspec.info/">RSpec</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Feature 1**
+- **Ruby**
+- **RSpec**
+- **GitFlow**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,8 +62,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-git clone https://github.com/Rysth/RUBY-Decode-Morse.git
-cd RUBY-Decode-Morse
+git clone git@github.com:hajnaloltyan/ruby-tdd-project.git
+cd ruby-tdd-project
 code . (To open VS Code Editor)
 ```
 
@@ -71,9 +73,17 @@ Then, you will change everything you want!
 
 Install this project with:
 
+- 1. Install Ruby following this [documentation](https://www.ruby-lang.org/en/documentation/installation/)
+- 2. Use the `build install` command within your folder using WSL to install all the dependencies automatically.
+- 3. Install RSpec following this [documentation](https://rspec.info/)
+
 ### Usage
 
 To run the project, execute the following steps:
+
+- 1. Open your terminal (WSL/Ubuntu Terminal)
+- 2. Check if you have ruby, rspec and rubocop installed (if not follow the previous chapter).
+- 4. Finish
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,11 +94,16 @@ To run the project, execute the following steps:
 - GitHub: [@rysthcraft](https://github.com/Rysth)
 - Linkedin: [@johnpalacios](https://www.linkedin.com/in/john-palacios-rysthcraft/)
 
+👤 **Hajnalka Oltyan**
+
+- GitHub: [@hajnaloltyan](https://github.com/hajnaloltyan)
+- LinkedIn: [Hajnal Oltyan](https://www.linkedin.com/in/hajnalka-oltyan/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **⏲️**
+- [ ] **Create more methods to have more solvable features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,6 +131,6 @@ I would like to thank the Microverse Team for reviewing my code and making me a 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
