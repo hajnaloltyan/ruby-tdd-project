@@ -3,6 +3,28 @@ require_relative '../solver'
 describe Solver do
   let(:solver) { Solver.new }
 
+  describe '#factorial' do
+    it 'returns the factorial of 0' do
+      expect(solver.factorial(0)).to eq(1)
+    end
+
+    it 'returns the factorial of 1' do
+      expect(solver.factorial(1)).to eq(1)
+    end
+
+    it 'returns the factorial of 5' do
+      expect(solver.factorial(5)).to eq(120)
+    end
+
+    it 'returns the factorial of 7' do
+      expect(solver.factorial(7)).to eq(5040)
+    end
+
+    it 'returns the factorial of -1' do
+      expect(solver.factorial(-1)).to be nil
+    end
+  end
+
   describe '#reverse' do
     it 'correctly reverses a given string' do
       expect(solver.reverse('hello')).to eq('olleh')
