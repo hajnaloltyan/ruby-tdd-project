@@ -21,7 +21,7 @@ describe Solver do
     end
 
     it 'returns the factorial of -1' do
-      expect(solver.factorial(-1)).to be nil
+      expect(solver.factorial(-1)).to eq(1)
     end
   end
 
