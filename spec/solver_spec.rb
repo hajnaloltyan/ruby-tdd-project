@@ -1,4 +1,4 @@
-require_relative '../solver'
+require_relative '../lib/solver'
 
 describe Solver do
   let(:solver) { Solver.new }
