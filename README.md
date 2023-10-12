@@ -27,7 +27,7 @@
 
 # 📖 Ruby - TDD project <a name="about-project"></a>
 
-**Ruby - TDD project** is a backend application, used to communicate with Students, Teachers, Books, and other relevant components from a School Library system. Built with Ruby.
+**Ruby - TDD project** is an application, containing a Solver class, and 3 methods: Factorial, Reverse and FizzBuzz. Built with Ruby using test-driven development (TDD) by writing the Rspec tests first.
 
 ## 🛠 Built With <a name="built-with"></a>
 

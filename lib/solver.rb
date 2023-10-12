@@ -1,5 +1,4 @@
 class Solver
-
   # Arguments
   # @n = Number to be calculated
   def factorial(n)
